@@ -1,6 +1,5 @@
 header {
-    height:  150vh;
-    padding-top: 7rem;
+    height:  130vh;
     overflow: hidden;
 }
 
@@ -27,56 +26,58 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 2rem;
+    bottom: 10rem;
 }
 
 .header__socials::after{
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 3rem;
     background: var(--color-primary)
 }
 .mypic{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
     align-items: center;
 }
  .me{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background: linear-gradient(var(--color-primary), transparent) ;
-    width: 22rem;
-    height: 33rem;
+    width: 24rem;
+    height: 25rem;
     align-items: center;
     position: absolute;
-    margin-top: 4rem;
-    left: calc(100%, -11rem);
-    border-radius: 12rem 12rem 0 0;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    left: calc(100%,  0rem);
+    border-radius: 15rem;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 } 
 
 .scroll_down{
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 15rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
 }
 
-/*MEDIA QUERIES (MEDIUM DEVICES) */
+/* MEDIA QUERIES (MEDIUM DEVICES) */
 
 
 @media screen and (max-width: 1024px) {
   header{
-    height: 68vh;
+    height: 200vh;
   }
   .me{
-    width : 65%;
-    margin: 0rem auto 4rem;
+    width : 50%;
+    margin: 0rem auto 10rem;
+    height : 100%;
   }
 }
 

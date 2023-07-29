@@ -7,6 +7,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
+      
       <h5>Get To Know</h5>
       <h2>About ME</h2>
 
@@ -18,31 +19,20 @@ const About = () => {
           </div>
 
           <div className="about__content">
-            <div className="about__cards">
-              <article className="about__card">
-                <FaAward className="about__icon" />
-                <h5> Client</h5>
-                <small> 10+ All over Maharashtra </small>
-              </article>
 
-              <article className="about__card">
-                <FiUsers className="about__icon" />
-                <h5> Projects </h5>
-                <small> 10+ Completed</small>
-              </article>
+             <p>
+                Hi, I'm <span style={{color:'#4db5ff'}}>Rushikesh Kolgatram</span> from Chh. Sambhajinagar, Maharashtra, India.
+                <br></br>
+                <br></br>
+                I currently pursuing my graduation in Bacheloar Of Technology from <span style = {{color:'#4db5ff'}}>Information Technology </span> Branch as a <span style={{color:'#4db5ff'}}>Final year</span> student.
+                <br></br>
+                <br></br>
+                As a skilled frontend developer, I possess a keen eye for design and a deep understanding of web technologies. 
+                My expertise lies in HTML, CSS, and JavaScript, enabling me to translate designs into functional and responsive websites. 
 
-              <article className="about__card">
-                <VscFolderLibrary className="about__icon" />
-                <h5> Experience</h5>
-                <small> 1+ yeras Experience </small>
-              </article>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate voluptatem ea, quidem reprehenderit ratione earum
-                dolores quis. Cumque accusamus itaque mollitia reprehenderit?
-                Ipsum est animi laboriosam eveniet, iusto soluta error?
               </p>
+
+            
 
               <a href="#contact" className="btn btn-primary">
                 Let's Talk
